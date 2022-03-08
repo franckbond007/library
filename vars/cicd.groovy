@@ -14,7 +14,7 @@ def newDeployment(ip,appname)
 
 def newSelenium(path)
 {
- sh 'java -jar "${path}"/testing.jar' 
+ sh 'java -jar "${path}"testing.jar' 
 }
 
 
